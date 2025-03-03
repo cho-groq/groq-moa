@@ -145,7 +145,7 @@ st.set_page_config(
 
 valid_model_names = sorted([model.id for model in Groq().models.list().data if not (model.id.startswith("whisper") or model.id.startswith("llama-guard"))])
 
-st.markdown("<a href='https://groq.com'><img src='app/static/banner.png' width='500'></a>", unsafe_allow_html=True)
+st.markdown("<a href='https://groq.com'><img src='app/static/banner.png' width='300'></a>", unsafe_allow_html=True)
 st.write("---")
 
 # Initialize session state
