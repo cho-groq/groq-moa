@@ -66,7 +66,7 @@ rec_layer_agent_config = {
     },
     "layer_agent_4": {
         "system_prompt": "You are an expert planner agent. Create a plan for how to answer the human's query. {helper_response}",
-        "model_name": "mixtral-8x7b-32768",
+        "model_name": "llama-3.1-8b-instant",
         "temperature": 0.5
     },
 }
